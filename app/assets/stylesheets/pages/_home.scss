@@ -1,5 +1,4 @@
-// Specific CSS for your home-page
-.center-block {
-  display : flex;
-  justify-content : center;
+
+#home-background {
+  background: url(<%= asset_data_uri 'logo.png' %>);
 }
