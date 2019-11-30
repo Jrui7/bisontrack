@@ -6,7 +6,16 @@
 
     <div class="access">
       <div class="btn-white">
-        FEU
+        <% if user_signed_in? %>
+          <%= link_to trainings_path do %>
+             FEU
+          <% end %>
+        <% else %>
+          <%= link_to new_user_session_path do %>
+            CONNEXION
+          <% end %>
+        <% end %>
+
       </div>
     </div>
   </div>
