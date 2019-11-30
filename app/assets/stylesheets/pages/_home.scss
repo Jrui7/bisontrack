@@ -26,3 +26,26 @@
   font-size: 20px;
   color: #e8e8e8;
 }
+
+.access {
+  margin-top: 70px;
+  display: flex;
+  justify-content : center;
+}
+
+.btn-white {
+    border-radius: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 10px 50px;
+    font-weight: bold;
+    color: #243763;
+    background: linear-gradient(#fff, #e4e4e9);
+    box-shadow: 0 7px 14px -3px rgba(45,35,66,0.3), 0 2px 4px 0 rgba(45,35,66,0.4), inset 0 -2px 0 0 #cfd1e3;
+    transition: box-shadow 0.15s ease, transform 0.15s ease, -webkit-transform 0.15s ease;
+    &:hover {
+      box-shadow: 0 5px 8px -1px rgba(45,35,66,0.3), 0 4px 5px 0 rgba(45,35,66,0.4), inset 0 -2px 0 0 #cfd1e3;
+    -webkit-transform: translateY(-1px);
+    transform: translateY(-1px);
+    }
+}
